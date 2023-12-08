@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar {
+  background-color: rgb(74, 39, 107);
+  width: 15vw;
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 17px;
+}
+
+.sidebar nav li {
+  color: white;
+  list-style: none;
+  padding: 25px 0;
+}
+.sidebar nav li a:hover{
+  color: rgb(196, 191, 191);
+  border-radius: 4px;
+  border: 3px solid white;
+}
+.container {
+  display: flex;
+  background-color: #888788;
+}
+
+.main {
+  width: 90vw;
+}
+
+.infocontainer {
+  display: flex;
+  height: 70vh;
+  justify-content: space-around;
+  margin: 80px auto;
+  font-family: "Playfair Display", serif;
+}
+
+.divinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 21px;
+}
+
+.divinfo .hi {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.divinfo .name {
+  font-size: 20px;
+}
+
+.divinfo .skill {
+  margin-top: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.divinfo .about {
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  padding: 5px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(38, 9, 65);
+  color: rgb(116, 109, 109);
+  font-size: small;
+}
+
+.divimg img {
+  height: 70vh;
+  width: 30vw;
+  opacity: 0.3;
+  border-radius: 10px;
+}
+
+/*ALL LINKS STYLING*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Contact Form*/
+
+.formmain {
+  width: auto;
+}
+
+.formheading {
+  margin: 120px 125px 22px 96px;
+}
+.form form div {
+  display: flex;
+  align-content: center;
+  margin-left: 100px;
+  flex-direction: column;
+  width: 25vw;
+  padding-top: 10px;
+}
+.submitbtn button{
+  width: fit-content;
+  padding: 5px;
+  width:fit-content;
+  border-radius: 15px;
+  border: 5px solid white;
+}
+#emailHelp {
+  font-size: 10px;
+}
+.form form div input {
+  padding: 2px;
+  border-radius: 5px;
+  border: 2px solid rgb(35, 13, 54);
+  cursor: pointer;
+}
+
+/*BLOG SECTION*/
+
+.mainblog div {
+  margin: 10px 50px;
+  padding: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: black;
+  opacity(15, 15, 15);
+}
+.mainblog h2 {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+/*INTRO SECTION*/
+.intromain div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:40vw;
+  height: 40vh;
+  float: inline-start;
+  margin: 10px 5px;
+  padding: 5px;
+}
+
+.intromain h1{
+     width: fit-content;
+     text-align: center;
+     margin: 7px auto;
+     border-radius: 10px;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+.intro1,.intro2,.intro3,.intro4{
+  color: black;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
+
+/* Services section*/
+
+.services{
+  margin: auto;
+}
+.services h1{
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+.services div {
+     display: flex; 
+    
+
+}
+.subservice{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 35vh;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: black;
+}
+.subservice h3{
+  text-align: center;
+}
+.subservice ul li{
+  margin: 4px;
+  margin-top: 5px;
+  list-style: none;
+}
